@@ -1,0 +1,105 @@
+<% include partials/header %>
+	<div class = "resume-wrapper">
+		<div class = "resume-content">
+			<h2 class="center">Xiaoxu Li</h2>
+			<p class="center">Phone Number: (347)-403-0729</p>
+			<p class = "center">Email Address: xl1842@nyu.edu</p>			
+			<h5>Education</h5>
+			<h6><span>New York University. New York. NY</span><span class="right">Sept.2016-May.2018</span></h6>
+			<span>Master of Science in Electrical Engineering </span>
+			<span class ="right">GPA: 3.6/4.0</span>
+			<p>Courses: Data Center and Cloud Computing, Internet Architecture Protocol, Data Structure and Algorithm, Introduction to Machine Learning,  Simulation Tools for Robotics, Introduction to Robotics.</p>
+			<h6><span>Central South University. Changsha. Hunan</span><span class="right">Sept.2011-Sept.2015</span></h6>
+			<span>Bachelor of Engineering</span>
+			<p>Courses: Data Center and Cloud Computing, Internet Architecture Protocol, Data Structure and Algorithm, Introduction to Machine Learning,  Simulation Tools for Robotics, Introduction to Robotics.</p>
+		</div>
+		<div class = "resume-content">			
+			<h5>Technical Skills  </h5>
+			<ul>
+				<li>Languages: JavaScript, Python, Java, SQL, HTML, CSS.</li>
+				<li>Big Data: Hadoop, Pig, Hive, Oozie, Sqoop, Hcatalog, Redis, Spark, Kafka, AWS.</li>
+				<li>Database: MySQL, PostgreSQL, Cassandra</li>
+				<li>Deployment and Virtualization:  Docker, Virtual Box, Vagrant, Zookeeper</li>
+			</ul>
+		</div>
+
+		<div class = "resume-content">			
+			<h5>Experience</h5>
+			<h6><span>Everlasing Wardrobe, Software Engineer intern</span> <span class="right">Sep.2017 – Present</span></h6>
+			<ul>
+				<li>Designed and created a MVC mode web appllication using Ruby on Rails, deployed the web on Heroku.</li>
+				<li>Designed functions to support data cleansing process to standarlize the raw data, validate and correct values against known lists of entities using python pandas and numpy.</li>
+				<li>Applied MySQL database and created ER model database schema for thousands of production information.</li>
+				<li>Design and implement search funciton and implemented user log in/out function.</li>
+			</ul>
+		</div>
+		<div class="resume-content">
+			<h5>Projects</h5>
+			<h6>Elastic Distributed Database</h6>
+			<ul>
+				<li>
+				Develped an elastic distributed database using MySQL replication, serving as the backend for a multi-tier web application runing TPC-W benchmark.
+				</li>
+				<li>
+					Implemented a loader balancer to route the writing queries to master nodes and route the browsing queries to slaves on round-robin and least latency modes.
+				</li>
+				<li>
+					Applied EasyRules to scale in/out the database servers according to the real-time workload changes and service level agreement.
+				</li>
+				<li>
+					Guaranteed the high availability of the database in the real-time using backup slaves. Monitored the workload/database/system performance using Dstat and CanvasJS.
+				</li>
+			</ul>    
+			<h6>Big Data Platform</h6>
+			<ul>
+				<li>
+					Implemented a high performance data processing platform using Apache Kafka, Apache Cassandra, and Apache Spark to analyze stock data.
+				</li>
+				<li>
+					Developed a dashboard web app using Redis, Node.js, D3.js.
+				</li>
+				<li>
+					Created a scalable cloud deployment environment using Docker, Apache Mesos.
+				</li>
+				<li>
+					Implemented one-click AWS deployment using Ansible and Terraform
+				</li>
+			</ul>
+			<h6>
+				Big Data ETL
+			</h6>
+			<ul>
+				<li>
+					Applied Pig, Hive, and MySQL for ETL and data analysis, including writing custom UDF, loader and storer to implement specific logic to process users’ information in Chinese Quora.
+				</li>
+				<li>
+					Implemented a data processing pipeline using Oozie, Sqoop, Pig, Hive, and Hcatalog. 
+				</li>
+				<li>
+					Built Hadoop Cluster on AWS EC2, ran Hadoop job from S3, and created Redshift Cluster for big data analysis.
+				</li>
+			</ul>
+			<h6>Machine Learning Project</h6>
+			<ul>
+				<li>
+					Formulated a multiple linear regression model to predict blood sugar related to eating, exercise, insulin dosage. trained model with data using numpy, sklearn, matplotlib and Jupyter notebook on Google Cloud. 
+				</li>
+			</ul>
+			<h6>
+				Software Defined Network
+			</h6>
+			<ul>
+				<li>
+					Built a network to support 1000 computers and 200 switches using Mininet and RYU. Created Central controller and allocated control rules in switches to manage the traffic in Data center.
+				</li>
+			</ul>
+			<h6>
+				Calculator for Robots Kinematics
+			</h6>
+			<ul>
+				<li>
+					Implemented kinematics and inverse kinematics calculation functions for robots arms in three-dimension coordinates using java.
+				</li>
+			</ul>
+
+<% include partials/footer %>
