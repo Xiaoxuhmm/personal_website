@@ -18,6 +18,10 @@ router.get("/resume", function(req, res){
 	res.render("resume");
 });
 
+router.get("/map", function(req, res){
+	res.render("map");
+});
+
 // router.post("/resume/update", function(req, res){
 // 	var categoryName = req.body.category;
 // 	var subtitleName = req.body.subtitle;
