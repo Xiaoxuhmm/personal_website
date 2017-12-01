@@ -21,6 +21,7 @@
     "yahoo-stock-prices": "^1.0.0"
   },
   "dependencies": {
-    "body-parser": "^1.18.2"
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7"
   }
 }
