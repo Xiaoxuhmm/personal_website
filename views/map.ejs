@@ -1,11 +1,25 @@
 <% include partials/header %>
+	<div class = "locations">
+		<button type = "button", id = "myloc">My Locations</button>
+		<button type = "button", id = "Manhattan">New York</button>
+	</div>
+	<div id = "distance-checker-wrapper">
+		<div class="col-lg-6">
+		    <div class="input-group">
+		      <input type="text" class="form-control" id="distance" placeholder="Input Your Location to Check How Far We Are!" aria-label="Check how far we are!">
+		      <span class="input-group-btn">
+		        <button class="btn btn-secondary" type="button" id="distance-checker">Go!</button>
+		      </span>
+		    </div>
+		  </div>
+	</div>
 	<div id = "map-wrapper">
 		<div id="map"></div>
 	</div>
 	
 
 <% include partials/footer %>
-<script src="http://maps.google.com/maps/api/js?sensor=false" 
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyD8t199-G77cQQbHfzVcc5NqqVKs3faIxI" 
           type="text/javascript"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script src="/jquery/jquery.min.js"></script>

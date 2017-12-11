@@ -31,7 +31,7 @@ app.use('/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist')
 
 server.listen('5000', function(){
 	console.log("The data process server has started!");
-})
+});
 
 
 // var mongoose = require('mongoose');

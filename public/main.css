@@ -92,3 +92,9 @@
 .complement{
 	height: 100px;
 }
+
+#distance-checker-wrapper{
+	width:50%;
+	padding-top: 20px;
+	padding-left: 50px;
+}
